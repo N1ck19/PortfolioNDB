@@ -1,0 +1,43 @@
+#masthead {
+	position: fixed;
+	background-color:;
+	width: 100%;
+	margin: 0 0 30px;
+	overflow: auto;
+	background-color: #bb1122;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.items {
+	display: inline;
+}
+
+#modlink, #modlink:visited, #modlink-special {
+	color: #ffffff;
+	text-decoration: none;
+	padding-left: 15px;
+	margin-left: 15px;
+	line-height: 19px;
+	font-family: "Gill Sans";
+	font-size: 20px;
+}
+
+#modlink-special {
+	font-weight: bold;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav:first-child {
+	border-left: 0 none;
+}
