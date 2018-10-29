@@ -46,7 +46,7 @@ aside {
 	float: right;
 }
 
-#top-thing {
+.top-thing {
 	margin-bottom: 100px;
 	display: inline-block;
 	border: 2px solid #111111;
@@ -54,6 +54,10 @@ aside {
 	background-color: #dddddd;
 	margin-top: 55px;
 	padding: 10px;
+	float: left;
+	width: 60%;
+	margin-right: 15px;
+
 }
 
 #me {
@@ -69,6 +73,10 @@ aside {
 	display: inline-block;
 	border-radius: 5px;
 	border: 4px dashed #000000;
+	float: right;
+	margin-top: 65px;
+	margin-right: 90px;
+
 }
 
 .right-info {
@@ -106,4 +114,16 @@ aside {
 
 #me, #top-thing h1 {
 	margin-left: 15px;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+}
+
+.type {
+	display: inline-block;
+}
+
+#con {
+	margin-left: 5px;
 }
